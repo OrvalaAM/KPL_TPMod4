@@ -10,8 +10,16 @@ namespace tpmodul4_1302204105
     {
         public static void Main()
         {
+<<<<<<< HEAD
             HaloGeneric halo = new HaloGeneric();
             halo.SapaUser("Orvala");
         }
     }
 }
+=======
+            DataGeneric<string> data = new DataGeneric<string>("Orvala");
+            data.PrintData();
+        }
+    }
+}
+>>>>>>> generic-class
