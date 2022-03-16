@@ -11,7 +11,7 @@ namespace tpmodul4_1302204105
         public static void Main()
         {
             HaloGeneric halo = new HaloGeneric();
-            halo.SapaUser(12.4);
+            halo.SapaUser("Orvala");
         }
     }
 }
